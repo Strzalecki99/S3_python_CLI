@@ -105,11 +105,11 @@ The CLI is implemented in a Python script, and you can run it from the command l
 2. **To upload a files named test3.txt and test3_1.txt:**
 
     ```bash
-    python3 s3_cli.py upload --file test3.txt --bucket developer-task2  --object-name TIE-rp/test3.txt
+    python3 s3_cli.py upload --file test3.txt --bucket developer-task2  --dest TIE-rp/test3.txt
     ```
     
     ```bash
-    python3 s3_cli.py upload --file test3_1.txt --bucket developer-task2  --object-name TIE-rp/test3_1.txt
+    python3 s3_cli.py upload --file test3_1.txt --bucket developer-task2  --dest TIE-rp/test3_1.txt
     ```
 
 3. **To list files containing the number 3:**
